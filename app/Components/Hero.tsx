@@ -1,7 +1,7 @@
 
-import React from "react"
-import Navbar from "./Navbar"
-import "../styles/hero.css"
+import React from "react";
+import Navbar from "./Navbar";
+import "../styles/hero.css";
 
 const Hero =  ()  => {
     return(
