@@ -1,5 +1,5 @@
-import React from 'react'
-import "../styles/skill.css"
+import React from 'react';
+import "../styles/skill.css";
 
 const Skills = () => {
   return (

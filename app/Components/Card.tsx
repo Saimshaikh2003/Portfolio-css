@@ -1,6 +1,6 @@
 import React from 'react'
-import Image from 'next/image';
-import '../styles/card.css'
+import Image from 'next/image'
+import "../styles/card.css";
 interface propsType {
     title : string;
     desc :string;
