@@ -46,9 +46,9 @@ const Card: React.FC<propsType> = ({ title, desc, img, tags }) => {
       </div>
 
       <div className="card-content">
-        <div>{title}</div>
+        <div className="card-title">{title}</div>
         <div>{desc}</div>
-        <div className="tags">
+        <div className="card-tags">
           {tags.map((tag, index) => (
             <span className="tag" key={index}>
               {tag}
