@@ -6,7 +6,10 @@ const Hero = () => {
   return (
     <div id="hero">
       <Navbar />
-      <div className="hero-container">
+      <div
+        className="hero-container"
+        style={{ backgroundImage: `url("/images/saim1.png")` }}
+      >
         <div className="hero-content">
           <div className="hidden lg:block"></div>
 
